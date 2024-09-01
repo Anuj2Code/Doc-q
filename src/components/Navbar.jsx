@@ -42,18 +42,12 @@ const Navbar = () => {
           <div className="relative top-[50px] flex gap-3 max-[1118px]:hidden">
             <Button
               variant="ghost"
-              className="w-[120px] bg-[#93c5fd] text-white"
+              className="w-[200px] h-[50px] font-bold bg-gradient-to-r from-[#00D7CF] to-[#53A7FF] text-white text-[18px] rounded-3xl"
             >
-              Log in
-            </Button>
-            <Button
-              variant="ghost"
-              className="w-[120px] bg-[#93c5fd] text-white"
-            >
-              Register
+             <Link href="/">Log in </Link><span className="p-[5px]"> /</span> <Link href="/">Register</Link>
             </Button>
           </div>
-          <div className="min-[1118px]:hidden relative top-[50px]">
+          <div className="min-[1118px]:hidden relative top-[55px]">
             <Sheet>
               <SheetTrigger asChild>
               <Button variant="outline">  <Menu /></Button>
@@ -61,9 +55,6 @@ const Navbar = () => {
               <SheetContent>
                 <SheetHeader>
                   <SheetTitle>Menu</SheetTitle>
-                  {/* <SheetDescription>
-                   
-                  </SheetDescription> */}
                 </SheetHeader>
                 <div className="grid gap-4 py-4">
                 <SheetFooter>
@@ -104,8 +95,8 @@ const Navbar = () => {
               </h1>
             </div>
             <div className="flex ml-[150px] min-[882px]:ml-[150px] max-[1128px]:ml-[150px]  max-[1128px]:items-center w-[100%]">
-              <button className="w-[180px] h-[50px] bg-[#ffffff] text-black rounded-2xl">
-                Open 24 hrs
+              <button className="w-[180px] text-[18px] h-[50px] bg-[#ffffff] text-black rounded-3xl font-bold">
+                Open 24 hs
               </button>
             </div>
           </div>
