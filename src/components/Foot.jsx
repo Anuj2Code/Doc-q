@@ -18,23 +18,23 @@ const Foot = () => {
         <div className="w-[30%] flex flex-col justify-center gap-5 max-[1008px]:items-center max-[1008px]:w-[100%]">
             <h1 className="text-[20px]">Visit Us</h1>
             <div className="flex gap-3">
-                <Image src={im1} className="h-7 w-7 max-[1008px]:ml-[30px]"></Image>
+                <Image src={im1} className="h-7 w-7 max-[1008px]:ml-[30px]" alt="img"></Image>
                 <h1 className="min-[1008px]:pr-[100px]">No. 198, CMH Road, 2nd Floor Suite No.1016 Indiranagar, Bangalore North,Bangalore KA 560038</h1>
             </div>
             <div className="flex gap-3">
-                <Image src={im2} className="h-6 w-6" ></Image>
+                <Image src={im2} className="h-6 w-6" alt="img"></Image>
                 <h1>hello@gmail.com</h1>
             </div>
             <div className="flex gap-3">
-                <Image src={im3} className="h-6 w-6"></Image>
+                <Image src={im3} className="h-6 w-6" alt="img"></Image>
                 <h1>+91 12345 67890</h1>
             </div>
         </div>
         <div className="flex flex-col mt-[50px] max-[1008px]:justify-center max-[1008px]:items-center">
           <h1>Social Links</h1>
           <div className="flex gap-3">
-          <Image src={im4} className="h-6 w-6" ></Image>
-          <Image src={im5} className="h-6 w-6" ></Image>
+          <Image src={im4} className="h-6 w-6" alt="img" ></Image>
+          <Image src={im5} className="h-6 w-6" alt="img" ></Image>
           </div>
         </div>
       </div>

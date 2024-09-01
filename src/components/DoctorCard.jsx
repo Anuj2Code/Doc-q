@@ -13,6 +13,7 @@ const DoctorCard = ({image,title,expereince}) => {
               src={image}
               height={100}
               width={50}
+              alt="img"
               className="rounded-full h-[60px] w-[60px]"
             ></Image>
           </div>

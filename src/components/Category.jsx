@@ -32,7 +32,7 @@ const Category = () => {
                    src={item.image}
                    height={100}
                    width={100}
-                   alt=""
+                   alt="img"
                    className="h-[30px] w-[30px] "
                  />
                </div>
