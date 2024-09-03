@@ -15,7 +15,7 @@ const Category = () => {
           <input
             type="text"
             placeholder="Find Your Doctor ..."
-            className="max-[430px]:w-[80%]  h-[55px] w-[853px] rounded-3xl border-solid border-3 drop-shadow-2xl border-2 shadow-xl border-zinc-500 outline-none pl-3"
+            className="max-[430px]:w-[80%]  h-[55px] w-[653px] rounded-3xl border-solid border-3 drop-shadow-2xl border-2 shadow-xl border-zinc-500 outline-none pl-3"
           />
           <input
             type="text"

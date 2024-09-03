@@ -1,21 +1,21 @@
 import React from "react";
 import im1 from "../../public/6be8c6fb6acd5fc7f978e17fe6f181f8.png";
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import im2 from "../../public/587c7eef45eb9a9032bd7861bea4ff03 (1).jpg";
-import im3 from "../../public/mingcute_plus-fill.png";
 import { Menu } from "lucide-react";
-
+import {Button} from "../components/ui/button"
 import {
   Sheet,
-  SheetClose,
   SheetContent,
+  SheetDescription,
   SheetFooter,
+  SheetClose,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
-} from "@/components/ui/sheet";
+}
+from "../components/ui/sheet"
+
 
 const Navbar = () => {
   return (
@@ -38,16 +38,15 @@ const Navbar = () => {
               <Link href="/">Find Doctor</Link>
             </div>
           </div>
-          <div className="relative top-[25px] flex gap-3 max-[1118px]:hidden">
-            <Button
-              variant="ghost"
+          <div className=" items-center flex gap-3 max-[1118px]:hidden">
+            <button
               className="w-[200px] mr-4 h-[50px] font-bold bg-gradient-to-r from-[#00D7CF] to-[#53A7FF] text-white text-[18px] rounded-3xl"
             >
              <Link href="/">Log in </Link><span className="p-[5px]"> /</span> <Link href="/">Register</Link>
-            </Button>
+            </button>
           </div>
           <div className="min-[1118px]:hidden relative top-[35px]">
-            <Sheet>
+          <Sheet>
               <SheetTrigger asChild>
               <Button variant="outline">  <Menu /></Button>
               </SheetTrigger>

@@ -1,10 +1,12 @@
 
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import ReactStars from "react-rating-stars-component";
 
 const DoctorCard = ({image,title,expereince}) => {
   return (
+  <Link href="/DoctorDetails">
     <div className="w-[100%] flex justify-center">
       <div className="w-[80%] max-[882px]:w-[100%] h-[80px] flex justify-between px-[30px] bg-[#DAEDFF] rounded-3xl">
         <div className="flex  items-center gap-3">
@@ -33,6 +35,7 @@ const DoctorCard = ({image,title,expereince}) => {
         <div className="text-[20px] font-semibold pt-[29px] max-[547px]:text-[14px]">Experience : {expereince} years</div>
       </div>
     </div>
+  </Link>
   );
 };
 
