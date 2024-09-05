@@ -7,7 +7,6 @@ import {Button} from "../components/ui/button"
 import {
   Sheet,
   SheetContent,
-  SheetDescription,
   SheetFooter,
   SheetClose,
   SheetHeader,
@@ -20,7 +19,7 @@ from "../components/ui/sheet"
 const Navbar = () => {
   return (
     <>
-        <div className=" h-[100px] bg-gradient-to-r from-[#B2D9FF] to-[#0180FF] flex justify-between ">
+        <div className=" h-[100px] w-[100%] bg-gradient-to-r from-[#B2D9FF] to-[#0180FF] flex justify-between ">
           <div className="h-[100px] w-[250px] object-contain flex justify-center items-center">
             <Link href="/">
               {" "}
@@ -45,7 +44,7 @@ const Navbar = () => {
              <Link href="/">Log in </Link><span className="p-[5px]"> /</span> <Link href="/">Register</Link>
             </button>
           </div>
-          <div className="min-[1118px]:hidden relative top-[35px]">
+          <div className="min-[1118px]:hidden relative top-[35px] mr-5">
           <Sheet>
               <SheetTrigger asChild>
               <Button variant="outline">  <Menu /></Button>
